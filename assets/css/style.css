@@ -9,3 +9,27 @@ body {
 .fondo {
     background-color: #000
 }
+
+.wallpaper {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wallpaper_uno {
+    background-image: url('../img/card1.jpg');
+}
+
+.wallpaper_dos {
+    background-image: url('../img/card2.jpg');
+}
+
+.wallpaper_tres {
+    background-image: url('../img/card3.jpg');
+}
+
+.wallpaper_cuatro {
+    background-image: url('../img/card4.jpg');
+}
