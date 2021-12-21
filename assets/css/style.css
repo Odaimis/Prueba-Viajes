@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth
+}
+
 /*Fondo negro y letras blancas */
 
 body {
