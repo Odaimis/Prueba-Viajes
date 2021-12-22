@@ -1,6 +1,7 @@
 /* Smooth scroll */
 $(document).ready(function(){
-    $("#").click(function (event) {
+    console.log("hola")
+    $("nav a").click(function (event) {
 
         if (this.hash !== "") {
 
@@ -10,10 +11,8 @@ $(document).ready(function(){
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function (){
-
-                window.location.hash = hash;
-            });
+            }, 800
+            );
         }
     });
 });
