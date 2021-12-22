@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: auto !important;
+}
+
 /*Fondo negro y letras blancas */
 
 body {
@@ -42,7 +46,6 @@ body {
     text-decoration: none;
     color: #fff;
 }
-
 
 .ancla:hover {
     color: rgb(201, 201, 201);
